@@ -59,7 +59,7 @@
             
                 if (cekilenMiktar > 0 && cekilenMiktar <= bakiye)
                 {
-                    bakiye = cekilenMiktar;
+                    bakiye -= cekilenMiktar;
                     Console.WriteLine($"Başarıyla {cekilenMiktar} TL çekildi. Güncel bakiye: {bakiye} TL");
                 }
                 else
